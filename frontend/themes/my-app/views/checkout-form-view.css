@@ -1,0 +1,19 @@
+@media screen and (max-width: 740px) {
+ .checkout-form-view {
+    flex-direction: column-reverse;
+  }
+ .checkout-form-view aside {
+    width: 100% !important;
+    flex-direction: row;
+  }
+ .checkout-form-view aside header {
+    display: none;
+  }
+ .checkout-form-view aside vaadin-tabs {
+    flex: 1 1 auto;
+    overflow: auto;
+  }
+ .checkout-form-view aside vaadin-tabs vaadin-tab.justify-between {
+    justify-content: flex-start;
+  }
+}
